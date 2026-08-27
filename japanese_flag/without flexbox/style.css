@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Flag container */
+.flag {
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Red circle */
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: #bc002d;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
