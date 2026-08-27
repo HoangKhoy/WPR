@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0; /* Xóa khoảng trắng thừa giữa các inline-block */
+}
+
+.stripe {
+  display: inline-block;
+  width: 33.333%;
+  height: 100%;
+}
+
+.blue {
+  background-color: #002654;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.red {
+  background-color: #ed2939;
+}
